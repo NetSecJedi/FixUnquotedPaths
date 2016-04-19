@@ -20,7 +20,7 @@ A Powershell Script to fix unquoted service paths in Windows
  use those scripts instead. I am posting this modification as reference to something useful in situations
  where a quick fix is necessary. 
 
- Myself nor the original author of this code cannot be held liable for any damage incurred running
+ Myself nor the original author of this code shall be held liable for any damage incurred running
  this in a production environment. Please take proper precautions before modifying the registry
  such as running this script with the REG ADD line commented out or taking a backup of the registry
  prior to running the script. Or obviously on virtual environments, etc.
