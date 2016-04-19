@@ -2,8 +2,10 @@
 A Powershell Script to fix unquoted service paths in Windows
 
  Original Code Author: Jeff Liford
+ 
  Modified by: Seth Feaganes (@NetSecJedi)
- Original: http://www.ryanandjeffshow.com/blog/2013/04/11/powershell-fixing-unquoted-service-paths-complete/
+ 
+ Link to Original: http://www.ryanandjeffshow.com/blog/2013/04/11/powershell-fixing-unquoted-service-paths-complete/
 
  A powershell script which will search the registry for unquoted service paths and properly quote
  them. If run in a powershell window exclusively, this script will produce no output other than
