@@ -3,7 +3,7 @@ A Powershell Script to fix unquoted service paths in Windows
 
  Original Code Author: Jeff Liford
  
- Modified by: Seth Feaganes (@NetSecJedi)
+ Modified by: Seth Feaganes (@Net_Sec_Jedi)
  
  Link to Original: http://www.ryanandjeffshow.com/blog/2013/04/11/powershell-fixing-unquoted-service-paths-complete/
 
