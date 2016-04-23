@@ -16,8 +16,7 @@ A Powershell Script to fix unquoted service paths in Windows
  This script was modified from the original three scripts named Get-SVCPath.ps1, Find-BADSVCPath.ps1,
  and Fix-BADSVCPath.ps1 to allow it to be run as a single script on one system or for use in mass
  deployment systems such as PDQDeploy, KACE, etc for example. If you require the functionality of those
- scripts for auditing, execution over multiple systems, or any other options those scripts provide, please
- use those scripts instead. I am posting this modification as reference to something useful in situations
+ scripts for auditing, execution over multiple systems natively in powershell, or any other options those scripts provide, please use the original scripts instead. I am posting this modification as a reference to something useful in situations
  where a quick fix is necessary. 
 
  Myself nor the original author of this code shall be held liable for any damage incurred running
