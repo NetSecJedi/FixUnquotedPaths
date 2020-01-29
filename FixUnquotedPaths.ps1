@@ -22,6 +22,8 @@
 ## prior to running the script. Or obviously on virtual environments, etc.
 #####################################################################################################
 
+# Add a comment from VSCode for fun :-D
+
 ## Grab all the registry keys pertinent to services
 $result = Get-ChildItem 'HKLM:\SYSTEM\CurrentControlSet\Services'
 $ServiceItems = $result | Foreach-Object {Get-ItemProperty $_.PsPath}
