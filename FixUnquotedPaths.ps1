@@ -30,7 +30,7 @@ $ServiceItems = $result | Foreach-Object {Get-ItemProperty $_.PsPath}
 
 # Iterate through the keys and check for Unquoted ImagePath's
 ForEach ($si in $ServiceItems) {
-	if ($si.ImagePath -ne $nul) { 
+	if ($null -ne $si.ImagePath) { 
 		$obj = New-Object -Typename PSObject
 		$obj | Add-Member -MemberType NoteProperty -Name Status -Value "Retrieved"
 		# There is certianly a way to use the full path here but for now I trim it until I can find time to play with it
